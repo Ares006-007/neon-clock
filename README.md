@@ -1,87 +1,12 @@
 <img width="831" height="581" alt="image" src="https://github.com/user-attachments/assets/99772339-a6b3-4fe9-a570-4ac2809ebd36" />
 
 
-Neon Clock
+Neon Clock is a simple digital clock built using HTML CSS and JavaScript. The project focuses on creating a clean neon style clock without using any libraries or frameworks. It shows the current hours minutes and seconds and updates in real time.
 
-A cool style digital clock made with just HTML, CSS and JavaScript. Nothing extra.
+The numbers are designed like a seven segment display similar to digital clocks. Each digit is made from seven small segments that turn on or off depending on the number. JavaScript controls which segments should glow while CSS creates the neon light effect using layered shadows.
 
-Live demo → [ares006-007.github.io/neon-clock](https://ares006-007.github.io/neon-clock/)
+The project is very lightweight and beginner friendly. It uses only three files. index.html for the structure style.css for the design and glow effects and script.js for the clock logic.
 
-## Features
+To run the project simply open the index.html file in any modern browser. No installation or setup is needed.
 
-- A real-time clock that shows hours, minutes and seconds
-
-- A neon glow look using CSS shadows
-
-- Digits in a seven-segment style made with CSS
-
-- Two shadow layers for a deep neon effect
-
-- A fix for older Safari browsers
-
-- No extra libraries needed. Just plain JavaScript and CSS
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-
-|------------|---------------------|
-
-| Markup | HTML5 |
-
-| Styling | CSS3 |
-
-| Logic | Plain JavaScript |
-
-| Font | Nunito Sans |
-
----
-
-## Project Structure
-
-neon-clock/
-
-├── index.html
-
-├── style.css
-
-└── script.js
-
----
-
-## Getting Started
-
-No need to build anything. Open `index.html` in any modern browser.
-
-```bash
-
-git clone https://github.com/Ares006-007/neon-clock.git
-
-cd neon-clock
-
-open index.html
-
-```
-
-Check out the live version at
-
-ares006-007.github.io/neon-clock.
-
-## How It Works
-
-The clock makes seven-segment digits using JavaScript. Each digit is a group with 7 parts. CSS makes the right parts light up for each number. The glow is made by stacking three layers.
-
-## Known Issues
-
-Older Safari browsers might show things differently. A special class is added to the body to handle this.
-
-## License
-
-MIT. Feel free to use and modify.
-
-Made with love, by @code.Areslor intensity and saturation.
-- Adjusting animation durations for `camera-rotate` and `camera-pan` to make the motion faster or slower.
-- Modifying the `bars` configuration or CSS segment shapes to explore alternative digit styles.
-
+The code is open and easy to modify so you can change the glow colors segment styles or experiment with different visual effects.
