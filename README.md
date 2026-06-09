@@ -74,7 +74,8 @@ neon-clock/
 
 ## Screenshots
 
-![Neon Clock Preview](./screenshot.png)
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/3f5b01f1-91b3-4532-b987-8a0a85f2e8d3" />
+
 
 ## Contributing
 
