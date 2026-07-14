@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to bottom, #131313, #000);
+  background-image: linear-gradient(to bottom, #131312,#000);
   perspective: 45rem;
   transform-style: preserve-3d;
 }
