@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to bottom, #131312,#000);
+  background-image: linear-gradient(to bottom, #fcf9f2, #e3d3c8);
   perspective: 45rem;
   transform-style: preserve-3d;
 }
@@ -17,10 +17,10 @@ body {
 }
 
 main {
-  --s: 100%;
-  --l: 50%;
+  --s: 85%;
+  --l: 55%;
   display: flex;
-  color: hsl(210deg, var(--s), var(--l));
+  color: hsl(25deg, var(--s), var(--l));
   gap: 1rem;
   width: 100%;
   height: 100%;
